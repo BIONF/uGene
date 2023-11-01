@@ -6,7 +6,7 @@ Groups of genes or taxa of particular interest can be exported.
 
 ### Installation:
 ##### Direct Download:
-- Download from: https://github.com/Mattisudu/uGene/
+- Download from: https://github.com/BIONF/uGene/
 - Extract to your desired location.
 
 ##### Via Pip:
@@ -33,4 +33,4 @@ You can use uGene via command-line or the dashboard.
 #### Garfic-Interface use:
    python uGeneGUI.py
 ### Usage:
-Within the "example" directory in the file location, you'll find two sets of data samples. The first set showcases simulated data, while the second features genuine data. Open the .phyloprofile or the respective .cluster.csv files. Use the graphical interface of uGenGUI to do so.
+Within the "[example](https://github.com/BIONF/uGene/example/)" directory in the file location, you'll find two sets of data samples. The first set showcases simulated data, while the second features genuine data. Open the .phyloprofile or the respective .cluster.csv files. Use the graphical interface of uGenGUI to do so.
