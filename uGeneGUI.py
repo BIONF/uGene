@@ -99,7 +99,7 @@ def colorRampPalette(colors, n):
     return result
 
 
-def scatterDataExpress(x_2d=None, y_2d=None, x_3d=None, y_3d=None, z_3d=None, color=None, customdata=None, df=None,
+def ataExpress(x_2d=None, y_2d=None, x_3d=None, y_3d=None, z_3d=None, color=None, customdata=None, df=None,
                        dot_size=5, rev_size=0.5, opacity=0.9, border=None):
     """ Create three plots with in just one trace and the given custom options.
     All params until df be able to call a column name from dataframe.
@@ -1523,7 +1523,7 @@ def createPrePlot(p_data, taxa_main, origin_order, dot_size, dot_opacity, dot_pa
     print("Info createPrePlot(): Start plotting.")
 
     # Get the profile data form app_con.data source.
-    df = app_con.data[p_data].drop_duplicates(subset=['geneID'])
+    df = app_con.data[p_data].drop_duplicates(subset=[col_id])
 
     if not origin_order:
         df = df.sort_values([col_x_1d]).reset_index(drop=True)
